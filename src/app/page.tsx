@@ -24,7 +24,7 @@ export default function SlideToUnlockDemo2() {
 
           toast.promise(myPromise, {
             loading: "Connecting...",
-            success: () => `Connected`,
+            success: () => `So Cute Nya!`,
             error: ({ message }) => `Error: ${message}`,
           });
         }}
