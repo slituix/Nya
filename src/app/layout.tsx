@@ -9,7 +9,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body>
         {children}
-        <Toaster position="top-center" />
+        <Toaster position="bottom-center" />
       </body>
     </html>
   );
